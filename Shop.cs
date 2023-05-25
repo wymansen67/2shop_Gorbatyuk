@@ -26,6 +26,7 @@ namespace WindowsFormsApp2
             products.Add(new Product(name, price), count);
         }
 
+
         public void WriteAllProducts(ListBox listBox)
         {
             listBox.Items.Clear();
